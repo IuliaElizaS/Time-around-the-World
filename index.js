@@ -17,7 +17,7 @@ const timeZones = [
     {difference: [-3, 0, 0], tZone: "UTC−03:00", details: "https://en.wikipedia.org/wiki/UTC%E2%88%9203:00"},
     {difference: [-2, 0, 0], tZone: "UTC−02:00", details: "https://en.wikipedia.org/wiki/UTC%E2%88%9202:00"},
     {difference: [-1, 0, 0], tZone: "UTC−01:00", details: "https://en.wikipedia.org/wiki/UTC%E2%88%9201:00"},
-    {difference: [0, 0, 0], tZone: "UTC (Universal Coordinated Time)", details: "https://en.wikipedia.org/wiki/UTC%C2%B100:00"},
+    {difference: [0, 0, 0], tZone: "UTC (GMT)", details: "https://en.wikipedia.org/wiki/UTC%C2%B100:00"},
     {difference: [1, 0, 0], tZone: "UTC+01:00", details: "https://en.wikipedia.org/wiki/UTC%2B01:00"},
     {difference: [2, 0, 0], tZone: "UTC+02:00", details: "https://en.wikipedia.org/wiki/UTC%2B02:00"},
     {difference: [3, 0, 0], tZone: "UTC+03:00", details: "https://en.wikipedia.org/wiki/UTC%2B03:00"},
@@ -90,7 +90,7 @@ populateLocalClock = () => {
     document.getElementById('localTime').innerHTML = localClock;
 }
 
-//displays the time around the world according to timeZones
+//displays the time around the world according to time zones
 populateWorldClocks = () => {
     //loops over the timeZones array
     for (zone of timeZones) {
