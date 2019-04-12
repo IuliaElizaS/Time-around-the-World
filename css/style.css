@@ -1,11 +1,25 @@
 body {
-    background-color: #E0FBFC;
     text-align: center;
+    font-family: 'Muli', sans-serif;
+    background-color: #e0fbfc;
+    background-image: url('../img/astronomy-1867616_1920.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    margin-bottom: 15px;
+}
+
+header p {
+    background-color: #e7e2bf40;
+    border-radius: 50px;
+    padding: 5px;
 }
 
 h1, h2 {
-    font-family: 'Austina';
-    color: #B71212;
+    font-family: 'Merienda', cursive;
+    color: #b71212;
 }
 
 p {
@@ -16,30 +30,48 @@ p {
     display: block;
 }
 
-#localTime {
+#localTime, .timeContainer {
     border: 3px solid #293241;
-    background-color: #B4D1E3;
+    border-radius: 50px;
+    background-color: #b4d1e3;
+    background-image: url('../img/background-1747782_1280.jpg');
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 10px;
 }
 
 #worldTimeContainer {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .timeContainer {
     display: block;
-    border: 3px solid #293241;
-    border-radius: 50%;
-    margin: 2%;
-    padding: 5%;
-    background-color: #B4D1E3;
+    max-width: 150px;
+    max-height: 180px;
 }
 
 .digitalClock, .localDigitalClock {
+    display: block;
+    padding: 5px;
     font-size: 30px;
     color: #293241;
 }
 
+.digitalClock {
+    border: 2px dotted #293241;
+    border-radius: 50%;
+}
+
 .details {
     font-size: 20px;
+}
+
+.signiture {
+    font-family: 'Marck Script', cursive;
 }

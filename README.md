@@ -5,6 +5,8 @@ Just playing with JavaScript Date Object &amp; the DOM
 This is a simple app that shows user's current time and the time around the globe.
 
 # Sources:
-- images: https://pixabay.com/photos/time-business-clock-moment-watch-3321330/
+- background images:
+  - https://pixabay.com/photos/astronomy-bright-constellation-dark-1867616/
+  - https://pixabay.com/illustrations/background-modern-computer-design-1747782/
 
-- fonts: https://1001freefonts.com/austhina-brush-calligraphy.font
+- fonts: https://fonts.google.com/
